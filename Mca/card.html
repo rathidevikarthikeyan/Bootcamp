@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .cards {
+
+            height:450px;
+            width:300px;
+             border-radius: 20px;
+             box-shadow: 10px 20px 30px rgb(12, 44, 223);
+             transition-duration: 4s;
+
+        } 
+        .cards img{
+            height:auto;
+            width: 100%;
+
+            border-top-left-radius:10px ;
+            border-top-right-radius: 10px;
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+           
+            justify-content: space-evenly;
+        }
+        .cards:hover{
+            transform: scale(1.05);
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="cards">
+        <img src=".//Assets/images.jpg" alt="">
+        <p>Lorem ipsum dolor sit met consectetur adipisicing  elitnt ab omnis harum delectus. Ratione.</p>
+    </div>
+     <div class="cards">
+        <img src=".//Assets/images.jpg" alt="">
+        <p>Lorem ipsum dolor sit met consectetur adipisicing elitnt ab omnis harum delectus. Ratione.</p>
+    </div>
+     <div class="cards">
+        <img src=".//Assets/images.jpg" alt="">
+        <p>Lorem ipsum dolor sit met consectetur adipisicing  elitnt ab omnis harum delectus. Ratione.</p>
+    </div>
+    </div>
+</body>
+</html>

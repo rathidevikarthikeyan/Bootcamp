@@ -1,0 +1,50 @@
+#p,p{
+        font-size: 20px;
+}
+h1{
+    color:chocolate;
+}
+.div1 {
+    font-family: monospace;
+    font-size: 10px;
+    
+}
+.div2{
+    text-align: center;
+}
+.overall div {
+    background-color:blueviolet;
+}
+#time th,#time td {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(198, 182, 194);
+}
+
+li a{
+    text-decoration: none;
+    
+}
+.container{
+    background-color:rgb(42, 116, 165);
+     
+}
+ ul{
+    list-style-type:none;
+    display: flex;
+}
+li{
+    padding-right: 100px;
+    margin-top: 10px;
+    margin-bottom:5px;
+    font-size: x-large;
+    
+
+}
+li:hover{
+    background-color:burlywood;
+    
+}
+.footer {
+    background-color: burlywood;
+}

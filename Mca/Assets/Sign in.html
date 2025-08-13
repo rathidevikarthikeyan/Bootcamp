@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            justify-content: center;
+            display:flex;
+            height:100vh;
+            align-items:center;
+            background-color: black;
+
+        }
+
+        form{
+            width:500px;
+            height:400px;
+            background-color: rgb(225, 218, 215);
+            border: 1px solid rgb(17, 16, 16);
+            align-items: center;
+            justify-content: space-around;
+            border-radius: 10px;
+            display:flex;
+            flex-direction: column;
+        }
+        .inp{
+            border: 1px solid black;
+            padding: 10px;
+            border-radius: 20px;
+            background-color: rgb(215, 221, 221);
+        
+        }
+        .inp input{
+            border:0;
+            outline:0;
+        }
+        .button input{
+          border:10px black;
+            border-radius: 10px;
+            padding: 10px;
+            background-color:red;
+            padding-right: 40px;
+            padding-left: 40px;
+        }
+
+       
+</style>
+</head>
+<body>
+    <form>
+    
+        <div class="inp">
+            <i class="fa-solid fa-user"></i>
+        <label for="Email id"></label>
+        <input type="text" id="Email Id" placeholder="xxx.@gmail.com"    required>
+        </div>
+
+
+         <div class="inp">
+            <i class="fa-solid fa-lock"></i>
+
+        <label for="Password"></label>
+        <input type="text" id="Password" placeholder="Password" required>
+        </div>
+    <div class="button">
+          <input type="submit"></input>
+
+
+    </div>
+    </form>
+   
+
+    
+   
+</body>
+</html>
